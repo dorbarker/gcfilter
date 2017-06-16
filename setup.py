@@ -17,6 +17,6 @@ setup(
 
         entry_points={
             'console_scripts': [
-                'gcfilter = gcfilter:main'
+                'gcfilter = gcfilter.gcfilter:main'
                 ]}
 )
