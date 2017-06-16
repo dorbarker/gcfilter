@@ -1,0 +1,11 @@
+# gcfilter
+
+Filters a FASTQ file on GC content
+
+Usage: gcfilter.py <lower> <upper> <fastq>
+
+Arguments:
+    lower   Inclusive lower bound on allowed GC content in the interval [0,1]
+    upper   Inclusive upper bound on allowed GC content in the interval [0,1]
+    fastq   Path to the FASTQ file
+
